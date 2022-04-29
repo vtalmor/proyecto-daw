@@ -1,10 +1,10 @@
 import Home from '../components/Home';
+import Layout from '../components/Layout';
 
 function HomePage() {
     return(
         <main>
-            <h1>HomePage</h1>
-            <Home />
+            <Layout children={<Home />} />
         </main>
     );
 }
