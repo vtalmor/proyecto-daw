@@ -20,7 +20,7 @@ const NavBar = () => {
         navigate("/proyecto-daw/help");
     }
 	function toWiki() {
-        navigate("/proyecto-daw/");
+        navigate("/proyecto-daw/wiki");
     }
 
   	return (
